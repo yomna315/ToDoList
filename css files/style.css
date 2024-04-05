@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ACBAFF  !important;
+}
+
+.container{
+width: 400px;
+background-color: #fff;
+border-radius: 5px;
+text-align: center;
+padding: 50px 35px 10px;
+margin-top: 10px;
+}
+.add{
+    font-weight: bold !important;
+}
+
+
+/* .container i{
+    cursor: pointer;
+    font-size: 30px;
+    padding-top:15px ;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: white;
+color: #000;
+    
+}
+.container #f1{
+    background-color: black;
+        color: white;
+        display: none;
+} */
+
+/* .f2{
+    padding:px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 66px 0 0 66px;
+    width: 40px;
+    height: 25px;
+    outline: none;
+    background-color: rgba(35, 41, 64, 0.786);  
+    color: white;
+    border: 1px solid silver;
+    cursor: pointer;
+    transition: .3s linear;
+} */
+.f2{
+    /* text-decoration: none; */
+    font-size: 16px;
+    border-radius: 50%;
+    width: 40px;
+    height: 25px;
+    outline: none;
+    background-color: rgba(35, 41, 64, 0.786);
+    color: white;
+    border: 1px solid silver;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.f2:hover{
+background-color: white;
+    color:  rgba(35, 41, 64, 0.786);;
+    box-shadow: 3px 5px 10px gray;
+}
+.container header{
+    color: #5a71e3;
+    font-size: 38px;
+    font-weight: 300px;
+    margin:0 0 30px;
+}
+
+.container .field{
+    display: inline-block; 
+    
+}
+.container .field input{
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 0 100px;
+}
+.container .field button{
+    margin: 0 10px;
+}
+.container .field input:hover{
+    border: 2px rgb(81, 155, 219) solid;
+    transition: .05s ease-in;
+}
+.tasks{
+    background-color:rgb(254, 230, 210);
+    border-radius: 3px;
+    padding: 10px;
+}
+.tasks .task{
+    margin: 20px;
+    
+}
+.tasks .done{
+    opacity: 0.5;
+}
+/* .tasks .done .btn-outline-success{
+    display: none;
+transition: .2s ease;
+} */
+
+
+@media (max-width: 420px) {
+    .container .field{
+        display: block;
+    }
+    .container .field input{
+            display: block;
+            width: 100%;
+            margin: 0;
+    }
+    
+}

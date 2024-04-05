@@ -1,0 +1,22 @@
+.dark-body {
+    background-color: #152238 !important;
+}
+.dark-header{
+    color: white !important;
+}
+.dark-container {
+    background-color: #1c2e4a;
+}
+.dark-btn{
+    background-color: white;
+    color:rgba(35, 41, 64, 0.786) ;
+}
+.dark-btn:hover {
+    color: white;
+    background-color: rgba(35, 41, 64, 0.786);
+    
+    box-shadow: 3px 5px 10px gray;
+}
+.tasks-dark{
+    background-color: #23395d;
+}
